@@ -1,4 +1,0 @@
-
-Certificate password.
-
-password: jacoby
