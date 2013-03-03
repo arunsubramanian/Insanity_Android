@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+               
+             android:background="#D8E0CE">
+
+             <RelativeLayout
+                 android:id="@+id/relativeLayout1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:layout_centerVertical="true" >
+
+                 <ImageView
+                     android:id="@+id/button2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     
+                     android:layout_centerHorizontal="true"
+                       android:layout_below="@+id/button1"
+                     android:src="@drawable/list"
+                     android:adjustViewBounds="true"
+                     android:scaleType="fitStart"
+                     android:onClick="workoutlist"
+                     />
+
+                
+
+                 <ImageView
+                     android:id="@+id/button1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentTop="true"
+                     android:layout_centerHorizontal="true"
+                     android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                     android:onClick="status"
+                     android:src="@drawable/status" />
+
+                 <ImageView
+                     android:id="@+id/button4"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/button3"
+                     android:layout_centerHorizontal="true"
+                      
+                     android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                     android:onClick="pictures"
+                    android:src="@drawable/pictures" />
+                 <ImageView
+                 android:id="@+id/button3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 
+                 android:layout_centerHorizontal="true"
+                  android:layout_below="@+id/button2"
+                 android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                 android:onClick="goToUrl"
+                 android:src="@drawable/calendar" />
+
+                 <ImageView
+                     android:id="@+id/button5"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                        android:layout_below="@+id/button6"
+                     android:layout_centerHorizontal="true"
+                     android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                     android:onClick="more"
+                      android:src="@drawable/more" 
+                     />
+
+                     <ImageView
+                     android:id="@+id/button6"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:onClick="fittestlog"
+                     android:layout_below="@+id/button4"
+                     android:adjustViewBounds="true"
+                     android:scaleType="fitStart"
+                     android:src="@drawable/fittestrecbut" />
+
+             </RelativeLayout>
+
+             <RelativeLayout
+                 android:id="@+id/ad2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:layout_centerHorizontal="true"
+                  >
+
+             </RelativeLayout>
+
+             <RelativeLayout
+                  android:id="@+id/ad1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                  
+                 android:layout_alignParentTop="true" 
+                 android:layout_centerHorizontal="true">
+
+             </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:text="Reset Start Day"
+                android:onClick="reset"
+                
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0000FF" />
+
+         </RelativeLayout>
+ 

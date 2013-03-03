@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Insanity_WR_app.android"
+    android:versionCode="4"
+    android:versionName="2.2" >
+   
+    <uses-sdk android:minSdkVersion="9"
+        android:maxSdkVersion="14" />
+    <supports-screens 
+                  
+                  android:smallScreens="false" 
+                  android:normalScreens="true"
+                  android:largeScreens="true" 
+                 
+                  android:anyDensity="true" 
+                 />
+ <uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.GET_TASKS" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+ <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+</uses-permission>
+ 
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        >
+        
+       <activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity
+            android:name=".Jacoby_AppsActivity"
+            android:label="@string/app_name" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+             android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Reminder"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.reminder" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Rate"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.rate" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Reset"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.reset" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Goal"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.goal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Signup"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.Signup" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SQLView"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SQLView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main_Menu"
+            android:label=""
+             android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateVisible|adjustResize" 
+            android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.JacobyApps.android.mainMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Status"
+            android:label=""
+             android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateVisible|adjustResize" 
+            android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.JacobyApps.android.status" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".WorkoutList"
+            android:label=""
+             android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateVisible|adjustResize" 
+            android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.JacobyApps.android.workoutList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".More"
+            android:label=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:windowSoftInputMode="stateVisible|adjustResize" 
+            android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.JacobyApps.android.more" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Pictures"
+            android:label=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:windowSoftInputMode="stateVisible|adjustResize" 
+            android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.JacobyApps.android.pictures" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+<activity android:name="com.millennialmedia.android.MMAdViewOverlayActivity" 
+      android:theme="@android:style/Theme.Translucent.NoTitleBar"
+      android:configChanges="keyboardHidden|orientation|keyboard" >
+</activity>
+<activity android:name="com.millennialmedia.android.VideoPlayer" 
+           android:configChanges="keyboardHidden|orientation|keyboard" >
+</activity>
+         
+<activity
+            android:name=".AlarmReceiver"
+            android:label=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:windowSoftInputMode="stateVisible|adjustResize" 
+            android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.insanity.AlarmReceiver" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+<activity
+            android:name=".FitTest"
+            android:label=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:windowSoftInputMode="stateVisible|adjustPan" 
+            android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.insanity.FitTest" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+
+  <receiver android:name="com.Insanity_WR_app.android.AlarmReceiver">  
+    <intent-filter>  
+        <action android:name="android.intent.action.BOOT_COMPLETED" />  
+    </intent-filter>  
+</receiver>
+    </application>
+    
+    
+
+</manifest>

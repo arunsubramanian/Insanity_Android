@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+               
+             android:background="#D8E0CE">
+
+             <RelativeLayout
+                 android:id="@+id/relativeLayout1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 
+                 android:layout_centerHorizontal="true"
+                 android:layout_centerVertical="true" >
+
+                 <ImageView
+                     android:id="@+id/imageView1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentTop="true"
+                     android:src="@drawable/status"
+                     android:adjustViewBounds="true"
+                     android:scaleType="fitStart"
+                     android:onClick="status" />
+
+                 <ImageView
+                     android:id="@+id/imageView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                      android:onClick="fittestlog"
+                     android:layout_below="@+id/imageView1"
+                     android:adjustViewBounds="true"
+                     android:scaleType="fitStart"
+                     android:src="@drawable/fittestrecbut" />
+                 
+                  <ImageView
+                 android:id="@+id/imageView3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView2"
+                 android:layout_centerHorizontal="true"
+                  android:onClick="workoutlist"
+                  android:adjustViewBounds="true"
+                     android:scaleType="fitStart"
+                 android:src="@drawable/list" />
+
+             <ImageView
+                 android:id="@+id/imageView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/imageView3"
+                 android:layout_centerHorizontal="true"
+                  android:onClick="pictures"
+                  android:adjustViewBounds="true"
+                     android:scaleType="fitStart"
+                 android:src="@drawable/pictures" />
+
+             <ImageView
+                 android:id="@+id/imageView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/imageView4"
+                 android:layout_centerHorizontal="true"
+                  android:onClick="reminder"
+                  android:adjustViewBounds="true"
+                     android:scaleType="fitStart"
+                 android:src="@drawable/reminderrecbut" />
+
+             <ImageView
+                 android:id="@+id/imageView6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                  android:layout_below="@+id/imageView5"
+                 android:layout_centerHorizontal="true"
+                  android:onClick="goal"
+                  android:adjustViewBounds="true"
+                     android:scaleType="fitStart"
+                 android:src="@drawable/goalrecbut" />
+
+             </RelativeLayout>
+
+            
+
+         </RelativeLayout>
+ 

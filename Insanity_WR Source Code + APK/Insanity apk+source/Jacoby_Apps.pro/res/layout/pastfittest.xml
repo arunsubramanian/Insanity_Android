@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+       android:fillViewport="true"
+       android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+      <RelativeLayout
+          android:id="@+id/rl1"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="#D8E0CE" >
+
+          <EditText
+              android:id="@+id/editText1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:inputType="number"
+              android:clickable="true"
+               android:maxLength="3"  >
+
+              <requestFocus />
+          </EditText>
+
+          <EditText
+              android:id="@+id/editText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/editText1"
+              android:layout_centerHorizontal="true"
+              android:inputType="number"
+              android:clickable="true"
+              android:maxLength="3" />
+
+          <EditText
+              android:id="@+id/editText3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/editText2"
+              android:layout_centerHorizontal="true"
+              android:inputType="number"
+              android:clickable="true"
+              android:maxLength="3" />
+
+          <EditText
+              android:id="@+id/editText4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/editText3"
+              android:layout_centerHorizontal="true"
+              android:inputType="number"
+              android:clickable="true"
+              android:maxLength="3" />
+
+          <EditText
+              android:id="@+id/editText5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/editText4"
+              android:layout_centerHorizontal="true"
+              android:inputType="number"
+              android:clickable="true"
+              android:maxLength="3" />
+
+          <EditText
+              android:id="@+id/editText6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/editText5"
+              android:layout_centerHorizontal="true"
+              android:inputType="number"
+              android:clickable="true"
+              android:maxLength="3" />
+
+          <EditText
+              android:id="@+id/editText7"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/editText6"
+              android:layout_centerHorizontal="true"
+              android:inputType="number"
+              android:clickable="true"
+              android:maxLength="3" />
+
+          <EditText
+              android:id="@+id/editText8"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/editText7"
+              android:layout_centerHorizontal="true"
+              android:inputType="number"
+              android:clickable="true"
+              android:maxLength="3" />
+
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/editText3"
+              android:layout_alignBottom="@+id/editText3"
+              android:layout_alignParentLeft="true"
+              android:text="Power Knees"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#000000"
+              android:textSize="15dp" />
+
+          <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/editText2"
+              android:layout_alignBottom="@+id/editText2"
+              android:layout_alignParentLeft="true"
+              android:text="Power Jacks"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#000000"
+              android:textSize="15dp" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/editText1"
+              android:layout_alignBottom="@+id/editText1"
+              android:layout_alignParentLeft="true"
+              android:text="Switch Kicks"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#000000"
+              android:textSize="15dp" />
+
+          <TextView
+              android:id="@+id/textView4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/editText4"
+              android:layout_alignBottom="@+id/editText4"
+              android:layout_alignParentLeft="true"
+              android:text="Power Jumps"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#000000"
+              android:textSize="15dp" />
+
+          <TextView
+              android:id="@+id/textView5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/editText5"
+              android:layout_alignBottom="@+id/editText5"
+              android:layout_alignParentLeft="true"
+              android:text="Globe Jumps"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#000000"
+              android:textSize="15dp" />
+
+          <TextView
+              android:id="@+id/textView6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/editText6"
+              android:layout_alignBottom="@+id/editText6"
+              android:layout_alignParentLeft="true"
+              android:text="Suicide Jumps"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#000000"
+              android:textSize="15dp" />
+
+          <TextView
+              android:id="@+id/textView7"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/editText7"
+              android:layout_alignBottom="@+id/editText7"
+              android:layout_alignParentLeft="true"
+              android:text="Push-Up Jacks"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#000000"
+              android:textSize="15dp" />
+
+          <TextView
+              android:id="@+id/textView8"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/editText8"
+              android:layout_alignBottom="@+id/editText8"
+              android:layout_alignParentLeft="true"
+              android:text="Low Plank Oblique"
+               
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#000000"
+              android:textSize="15dp"
+             />
+
+         
+
+          <ImageView
+              android:id="@+id/imageView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/textView8"
+                 android:adjustViewBounds="true"
+                 android:layout_marginTop="15dp"
+                 android:clickable="true"
+                 android:onClick="ft1"
+                android:scaleType="fitStart"
+                
+              android:src="@drawable/ft1" />
+
+          <ImageView
+              android:id="@+id/imageView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+               android:layout_toRightOf="@+id/imageView1"
+              android:layout_alignTop="@+id/imageView1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+               android:clickable="true"
+                 android:onClick="ft2"
+              android:src="@drawable/ft2" />
+
+          <ImageView
+              android:id="@+id/imageView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+               android:layout_toRightOf="@+id/imageView2"
+              android:layout_alignTop="@+id/imageView1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                  android:clickable="true"
+                 android:onClick="ft3"
+              android:src="@drawable/ft3" />
+
+          <ImageView
+              android:id="@+id/imageView4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+                  android:layout_toRightOf="@+id/imageView3"
+              android:layout_alignTop="@+id/imageView1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:clickable="true"
+                 android:onClick="ft4"
+              android:src="@drawable/ft4" />
+
+          <ImageView
+              android:id="@+id/imageView5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/imageView4"
+              android:layout_alignTop="@+id/imageView1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                 android:clickable="true"
+                 android:onClick="ft5"
+              android:src="@drawable/ft5" />
+
+           
+            <TextView
+              android:id="@+id/textView14"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/editText1"
+              android:layout_alignBottom="@+id/editText1"
+              android:layout_alignParentRight="true"
+              android:textColor="#000000"
+              android:text="Large Text"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                 android:tag="save" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView3"
+              android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                  android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                 android:clickable="true"
+                 android:onClick="saved"
+                android:text="Button"
+                android:src="@drawable/savebut" />
+
+      </RelativeLayout>
+
+      </ScrollView>

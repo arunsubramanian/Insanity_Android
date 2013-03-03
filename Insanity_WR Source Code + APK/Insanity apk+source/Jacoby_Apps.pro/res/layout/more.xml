@@ -1,0 +1,46 @@
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:mm="http://millennialmedia.com/android/schema"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#FFFFFF"
+	android:gravity="center"
+	
+	>
+	
+		
+		<com.millennialmedia.android.MMAdView
+			android:id="@+id/adView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			 
+			mm:apid="86804"
+			mm:keywords="fitness,gym,exercise,sports,health,organic, Beachbody,Fitness products,
+         Health foods,
+         Whey Protein,
+         Insanity,
+         Health app,
+         Fitness app,
+         Breakfast foods,
+         Vitamins,
+         Supplements,
+         Weight loss,
+         Sports and fitness,
+         NBA,
+         NFL,
+         Diet,
+         Exercise,
+         Nutrition,
+         Bodybuilding,
+         Metabolism,
+         gym"
+			mm:adType="BANNER_AD_BOTTOM"
+			mm:refreshInterval="30"
+			mm:orientation="straight"
+			 
+			
+			
+			
+			/>
+</RelativeLayout>
